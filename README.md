@@ -139,7 +139,7 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 | `command > <file>`               | Redirect output to a file                                          |
 | `command >> <file>`              | Append output to a file                                            |
 | `command < <file>`               | Use a file as input to a command                                   |
-| `command | <command>`            | Pipe output from one command to another                            |
+| `command \| <command>`           | Pipe output from one command to another                            |
 | `command 2> <file>`              | Redirect error output to a file                                    |
 | `command &> <file>`              | Redirect both stdout and stderr to a file                          |
 
