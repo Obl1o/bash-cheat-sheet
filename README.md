@@ -166,10 +166,10 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 | `?`                              | Matches any single character                                       |
 | `[]`                             | Matches any one character within the brackets                      |
 | `&`                              | Run a command in the background                                    |
-| `|`                              | Pipe the output of one command to another                          |
+| ` | `                              | Pipe the output of one command to another                        |
 | `;`                              | Separate multiple commands on the same line                        |
 | `&&`                             | Execute the second command only if the first succeeds              |
-| `||`                             | Execute the second command only if the first fails                 |
+| ` || `                           | Execute the second command only if the first fails                 |
 
 ## Helpful Shortcuts
 
