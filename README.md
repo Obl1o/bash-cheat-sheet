@@ -3,66 +3,66 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 
 ## Basic Commands
 
-| Command                 | Description                                        |
-|-------------------------|----------------------------------------------------|
-| `pwd`                   | Print working directory                            |
-| `ls`                    | List directory contents                            |
-| `cd <directory>`        | Change directory to `<directory>`                  |
-| `touch <file>`          | Create an empty file                               |
-| `mkdir <dir>`           | Create a new directory                             |
-| `rm <file>`             | Remove a file                                      |
-| `rmdir <dir>`           | Remove an empty directory                          |
-| `rm -r <dir>`           | Remove a directory and its contents                |
-| `cp <source> <dest>`    | Copy files or directories                          |
-| `mv <source> <dest>`    | Move or rename files or directories                |
+| Command                 | Description                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| `pwd`                   | Print working directory                                                     |
+| `ls`                    | List directory contents                                                     |
+| `cd <directory>`        | Change directory to `<directory>`                                           |
+| `touch <file>`          | Create an empty file                                                        |
+| `mkdir <dir>`           | Create a new directory                                                      |
+| `rm <file>`             | Remove a file                                                               |
+| `rmdir <dir>`           | Remove an empty directory                                                   |
+| `rm -r <dir>`           | Remove a directory and its contents                                         |
+| `cp <source> <dest>`    | Copy files or directories                                                   |
+| `mv <source> <dest>`    | Move or rename files or directories                                         |
 
 ## File Permissions
 
-| Command                         | Description                                        |
-|---------------------------------|----------------------------------------------------|
-| `chmod <permissions> <file>`    | Change file permissions (e.g., `chmod 755 file`)   |
-| `chown <user>:<group> <file>`   | Change file ownership                              |
-| `ls -l`                         | List files with detailed information               |
-| `chmod -R <permissions> <dir>`  | Change permissions recursively for a directory     |
-| `chown -R <user>:<group> <dir>` | Change ownership recursively for a directory       |
+| Command                         | Description                                                         |
+|---------------------------------|---------------------------------------------------------------------|
+| `chmod <permissions> <file>`    | Change file permissions (e.g., `chmod 755 file`)                    |
+| `chown <user>:<group> <file>`   | Change file ownership                                               |
+| `ls -l`                         | List files with detailed information                                |
+| `chmod -R <permissions> <dir>`  | Change permissions recursively for a directory                      |
+| `chown -R <user>:<group> <dir>` | Change ownership recursively for a directory                        |
 
 ## File Viewing & Editing
 
-| Command                          | Description                                        |
-|----------------------------------|----------------------------------------------------|
-| `cat <file>`                     | Display the contents of a file                     |
-| `less <file>`                    | View a file page by page                           |
-| `head <file>`                    | View the first 10 lines of a file                  |
-| `tail <file>`                    | View the last 10 lines of a file                   |
-| `nano <file>`                    | Open a file in the nano editor                     |
-| `vim <file>`                     | Open a file in the Vim editor                      |
-| `vim +<line> <file>`             | Open a file and jump to a specific line number     |
+| Command                          | Description                                                        |
+|----------------------------------|--------------------------------------------------------------------|
+| `cat <file>`                     | Display the contents of a file                                     |
+| `less <file>`                    | View a file page by page                                           |
+| `head <file>`                    | View the first 10 lines of a file                                  |
+| `tail <file>`                    | View the last 10 lines of a file                                   |
+| `nano <file>`                    | Open a file in the nano editor                                     |
+| `vim <file>`                     | Open a file in the Vim editor                                      |
+| `vim +<line> <file>`             | Open a file and jump to a specific line number                     |
 
 ## Searching & Finding Files
 
-| Command                          | Description                                        |
-|----------------------------------|----------------------------------------------------|
-| `grep <pattern> <file>`          | Search for a pattern in a file                     |
-| `find <path> -name <file>`       | Find a file by name                                |
-| `locate <file>`                  | Locate a file by its name                          |
-| `updatedb`                       | Update the database for `locate`                   |
-| `which <command>`                | Find the location of a command in the system path  |
-| `whereis <command>`              | Find binary, source, and manual pages of a command |
+| Command                          | Description                                                        |
+|----------------------------------|--------------------------------------------------------------------|
+| `grep <pattern> <file>`          | Search for a pattern in a file                                     |
+| `find <path> -name <file>`       | Find a file by name                                                |
+| `locate <file>`                  | Locate a file by its name                                          |
+| `updatedb`                       | Update the database for `locate`                                   |
+| `which <command>`                | Find the location of a command in the system path                  |
+| `whereis <command>`              | Find binary, source, and manual pages of a command                 |
 
 ## Process Management
 
-| Command                          | Description                                        |
-|----------------------------------|----------------------------------------------------|
-| `ps`                             | List processes running on the system               |
-| `top`                            | Display a real-time list of running processes      |
-| `kill <pid>`                     | Kill a process by its PID                          |
-| `killall <process>`              | Kill all instances of a process                    |
-| `bg`                             | Move a process to the background                   |
-| `fg`                             | Bring a background process to the foreground       |
-| `nice <command>`                 | Start a command with a modified priority           |
-| `renice <priority> <pid>`        | Change the priority of a running process           |
-| `nohup <command> &`              | Run a command in the background and ignore hangups |
-| `pstree`                         | Display processes in a tree-like format            |
+| Command                          | Description                                                        |
+|----------------------------------|--------------------------------------------------------------------|
+| `ps`                             | List processes running on the system                               | 
+| `top`                            | Display a real-time list of running processes                      |
+| `kill <pid>`                     | Kill a process by its PID                                          |
+| `killall <process>`              | Kill all instances of a process                                    |
+| `bg`                             | Move a process to the background                                   |
+| `fg`                             | Bring a background process to the foreground                       |
+| `nice <command>`                 | Start a command with a modified priority                           |
+| `renice <priority> <pid>`        | Change the priority of a running process                           |
+| `nohup <command> &`              | Run a command in the background and ignore hangups                 |
+| `pstree`                         | Display processes in a tree-like format                            |
 
 ## Networking
 
@@ -100,104 +100,104 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 
 ## System Information
 
-| Command                          | Description                                        |
-|----------------------------------|----------------------------------------------------|
-| `uname -a`                       | Display system information (kernel, OS, etc.)      |
-| `hostnamectl`                    | Get or set the system hostname                     |
-| `uptime`                         | Show system uptime and load averages               |
-| `who`                            | Show who is logged in                              |
-| `w`                              | Display who is logged in and their activity        |
-| `last`                           | Show the last logins                               |
-| `free`                           | Display memory usage                               |
-| `vmstat`                         | Report virtual memory statistics                   |
-| `lscpu`                          | Display CPU architecture information               |
-| `lsusb`                          | List USB devices                                   |
-| `lspci`                          | List PCI devices                                   |
-| `dmesg`                          | Print the kernel ring buffer                       |
-| `lshw`                           | Display detailed hardware configuration            |
-| `top`                            | Monitor system resources in real-time              |
+| Command                          | Description                                                        |
+|----------------------------------|--------------------------------------------------------------------|
+| `uname -a`                       | Display system information (kernel, OS, etc.)                      |
+| `hostnamectl`                    | Get or set the system hostname                                     |
+| `uptime`                         | Show system uptime and load averages                               |
+| `who`                            | Show who is logged in                                              |
+| `w`                              | Display who is logged in and their activity                        |
+| `last`                           | Show the last logins                                               |
+| `free`                           | Display memory usage                                               |
+| `vmstat`                         | Report virtual memory statistics                                   |
+| `lscpu`                          | Display CPU architecture information                               |
+| `lsusb`                          | List USB devices                                                   |
+| `lspci`                          | List PCI devices                                                   |
+| `dmesg`                          | Print the kernel ring buffer                                       |
+| `lshw`                           | Display detailed hardware configuration                            |
+| `top`                            | Monitor system resources in real-time                              |
 
 ## Environment Variables
 
-| Command                          | Description                                        |
-|----------------------------------|----------------------------------------------------|
-| `echo $<variable>`               | Print the value of an environment variable         |
-| `export <variable=value>`        | Set an environment variable                        |
-| `unset <variable>`               | Remove an environment variable                     |
-| `env`                            | Display all environment variables                  |
-| `printenv`                       | Print all environment variables                    |
+| Command                          | Description                                                        |
+|----------------------------------|--------------------------------------------------------------------|
+| `echo $<variable>`               | Print the value of an environment variable                         |
+| `export <variable=value>`        | Set an environment variable                                        |
+| `unset <variable>`               | Remove an environment variable                                     |
+| `env`                            | Display all environment variables                                  |
+| `printenv`                       | Print all environment variables                                    |
 
 ## File Redirection & Pipes
 
-| Command                          | Description                                        |
-|----------------------------------|----------------------------------------------------|
-| `command > <file>`               | Redirect output to a file                          |
-| `command >> <file>`              | Append output to a file                            |
-| `command < <file>`               | Use a file as input to a command                   |
-| `command | <command>`            | Pipe output from one command to another            |
-| `command 2> <file>`              | Redirect error output to a file                    |
-| `command &> <file>`              | Redirect both stdout and stderr to a file          |
+| Command                          | Description                                                        |
+|----------------------------------|--------------------------------------------------------------------|
+| `command > <file>`               | Redirect output to a file                                          |
+| `command >> <file>`              | Append output to a file                                            |
+| `command < <file>`               | Use a file as input to a command                                   |
+| `command | <command>`            | Pipe output from one command to another                            |
+| `command 2> <file>`              | Redirect error output to a file                                    |
+| `command &> <file>`              | Redirect both stdout and stderr to a file                          |
 
 ## Bash Scripting Basics
 
-| Command                          | Description                                        |
-|----------------------------------|----------------------------------------------------|
-| `#!/bin/bash`                    | Shebang: Declares the script interpreter           |
-| `echo "Hello, World!"`           | Print a message to the screen                      |
-| `read <variable>`                | Take user input and store it in a variable         |
-| `if [ condition ]; then ... fi`  | Conditional statement                              |
-| `for var in 1 2 3; do ... done`  | For loop                                           |
-| `while [ condition ]; do ... done`| While loop                                        |
-| `function_name() { ... }`        | Define a function                                  |
-| `exit`                           | Exit the script                                    |
-| `crontab -e`                     | Edit cron jobs for scheduled tasks                 |
-| `at <time>`                      | Run a command at a specified time                  |
+| Command                             | Description                                                     |
+|-------------------------------------|-----------------------------------------------------------------|
+| `#!/bin/bash`                       | Shebang: Declares the script interpreter                        |
+| `echo "Hello, World!"`              | Print a message to the screen                                   |
+| `read <variable>`                   | Take user input and store it in a variable                      |
+| `if [ condition ]; then ... fi`     | Conditional statement                                           |
+| `for var in 1 2 3; do ... done`     | For loop                                                        |
+| `while [ condition ]; do ... done`  | While loop                                                      |
+| `function_name() { ... }`           | Define a function                                               |
+| `exit`                              | Exit the script                                                 |
+| `crontab -e`                        | Edit cron jobs for scheduled tasks                              |
+| `at <time>`                         | Run a command at a specified time                               |
 
 ## Special Characters
 
-| Character                        | Description                                            |
-|----------------------------------|--------------------------------------------------------|
-| `*`                              | Wildcard, matches zero or more characters              |
-| `?`                              | Matches any single character                           |
-| `[]`                             | Matches any one character within the brackets          |
-| `&`                              | Run a command in the background                        |
-| `|`                              | Pipe the output of one command to another              |
-| `;`                              | Separate multiple commands on the same line            |
-| `&&`                             | Execute the second command only if the first succeeds  |
-| `||`                             | Execute the second command only if the first fails     |
+| Character                        | Description                                                        |
+|----------------------------------|--------------------------------------------------------------------|
+| `*`                              | Wildcard, matches zero or more characters                          |
+| `?`                              | Matches any single character                                       |
+| `[]`                             | Matches any one character within the brackets                      |
+| `&`                              | Run a command in the background                                    |
+| `|`                              | Pipe the output of one command to another                          |
+| `;`                              | Separate multiple commands on the same line                        |
+| `&&`                             | Execute the second command only if the first succeeds              |
+| `||`                             | Execute the second command only if the first fails                 |
 
 ## Helpful Shortcuts
 
-| Shortcut                        | Description                                        |
-|----------------------------------|---------------------------------------------------|
-| `Ctrl + C`                      | Cancel the current command                         |
-| `Ctrl + Z`                      | Pause the current command                          |
-| `Ctrl + D`                      | Log out from the terminal or close the shell       |
-| `Ctrl + L`                      | Clear the terminal screen                          |
-| `!!`                             | Execute the last command                          |
-| `!<number>`                     | Execute a specific command from the history        |
-| `history`                       | Show command history                               |
-| `Tab`                            | Auto-complete commands or filenames               |
+| Shortcut                        | Description                                                         |
+|---------------------------------|---------------------------------------------------------------------|
+| `Ctrl + C`                      | Cancel the current command                                          |
+| `Ctrl + Z`                      | Pause the current command                                           |
+| `Ctrl + D`                      | Log out from the terminal or close the shell                        |
+| `Ctrl + L`                      | Clear the terminal screen                                           |
+| `!!`                            | Execute the last command                                            |
+| `!<number>`                     | Execute a specific command from the history                         |
+| `history`                       | Show command history                                                |
+| `Tab`                           | Auto-complete commands or filenames                                 |
 
 ## Useful Variables
 
-| Variable                        | Description                                        |
-|----------------------------------|---------------------------------------------------|
-| `$HOME`                         | Home directory                                     |
-| `$USER`                         | Current user                                       |
-| `$PATH`                         | List of directories to search for executables      |
-| `$PWD`                          | Current working directory                          |
-| `$SHELL`                        | The path to the current shell                      |
+| Variable                        | Description                                                         |
+|---------------------------------|---------------------------------------------------------------------|
+| `$HOME`                         | Home directory                                                      |
+| `$USER`                         | Current user                                                        |
+| `$PATH`                         | List of directories to search for executables                       |
+| `$PWD`                          | Current working directory                                           |
+| `$SHELL`                        | The path to the current shell                                       |
 
 ## Other Useful Commands
 
-| Command                          | Description                                        |
-|----------------------------------|----------------------------------------------------|
-| `alias <name>='<command>'`       | Create an alias for a command                      |
-| `unalias <name>`                 | Remove an alias                                    |
-| `man <command>`                  | Show the manual page for a command                 |
-| `info <command>`                 | Show detailed documentation for a command          |
-| `crontab -l`                     | List scheduled cron jobs                           |
-| `systemctl <command>`            | Control systemd services (start, stop, restart)    |
-| `service <service> <action>`     | Manage services (start, stop, restart)             |
-| `journalctl`                     | View logs from the systemd journal                 |
+| Command                          | Description                                                        |
+|----------------------------------|--------------------------------------------------------------------|
+| `alias <name>='<command>'`       | Create an alias for a command                                      |
+| `unalias <name>`                 | Remove an alias                                                    |
+| `man <command>`                  | Show the manual page for a command                                 |
+| `info <command>`                 | Show detailed documentation for a command                          |
+| `crontab -l`                     | List scheduled cron jobs                                           |
+| `systemctl <command>`            | Control systemd services (start, stop, restart)                    |
+| `service <service> <action>`     | Manage services (start, stop, restart)                             |
+| `journalctl`                     | View logs from the systemd journal                                 |
