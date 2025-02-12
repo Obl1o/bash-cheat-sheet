@@ -1,7 +1,8 @@
 <p align="center"><img align="center" src="/images/bcs_logo.webp"</p> 
-<br>
-<br>
-<br>
+<pre>
+
+
+</pre>  
 A handy cheat sheet for essential Bash commands, covering file management, process handling, networking, and more. Perfect for beginners and experienced users looking for a quick reference.
 
 ## Basic Commands
