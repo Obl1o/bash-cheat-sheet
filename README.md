@@ -10,8 +10,8 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 
 | Command                 | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
-|  pwd                    | Print working directory                                                     |
-|  ls                     | List directory contents                                                     |
+|  `pwd`                  | Print working directory                                                     |
+|  `ls`                   | List directory contents                                                     |
 | `cd <directory>`        | Change directory to `<directory>`                                           |
 | `touch <file>`          | Create an empty file                                                        |
 | `mkdir <dir>`           | Create a new directory                                                      |
