@@ -1,4 +1,7 @@
 # Bash cheat sheet
+
+![Project Logo](./images/bcs_logo.webp)
+
 A handy cheat sheet for essential Bash commands, covering file management, process handling, networking, and more. Perfect for beginners and experienced users looking for a quick reference.
 
 ## Basic Commands
