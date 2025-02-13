@@ -25,7 +25,7 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 
 | Command                         | Description                                                         |
 |---------------------------------|---------------------------------------------------------------------|
-| `chmod <permissions> <file>`    | Change file permissions (e.g., `chmod 755 file`)                    |
+| `chmod <permissions> <file>`    | Change file permissions (e.g. `chmod 755 file`)                     |
 | `chown <user>:<group> <file>`   | Change file ownership                                               |
 | `ls -l`                         | List files with detailed information                                |
 | `chmod -R <permissions> <dir>`  | Change permissions recursively for a directory                      |
