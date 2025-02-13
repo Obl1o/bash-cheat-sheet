@@ -39,7 +39,6 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 | `less <file>`                    | View a file page by page                                           |
 | `head <file>`                    | View the first 10 lines of a file                                  |
 | `tail <file>`                    | View the last 10 lines of a file                                   |
-| `nano <file>`                    | Open a file in the nano editor                                     |
 | `vim <file>`                     | Open a file in the Vim editor                                      |
 | `vim +<line> <file>`             | Open a file and jump to a specific line number                     |
 
