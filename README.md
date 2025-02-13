@@ -2,7 +2,7 @@
 
 <br>
 <br>
-A handy cheat sheet for essential Bash commands, covering file management, process handling, networking, and more. Perfect for beginners and experienced users looking for a quick reference.
+A handy cheat sheet for essential Bash commands, covering file management, process handling, networking, and more. Perfect for beginners and experienced users looking for a quick reference. Printable PDF available in the "release" section.
 <br>
 <br>  
   
@@ -176,3 +176,6 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 | `systemctl <command>`            | Control systemd services (start, stop, restart)                    |
 | `service <service> <action>`     | Manage services (start, stop, restart)                             |
 | `journalctl`                     | View logs from the systemd journal                                 |
+
+## CONTRIBUTING
+If you find errors or want to suggest the addition of a particular command that you deem important, feel free to submit a pull request.
