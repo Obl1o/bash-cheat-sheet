@@ -77,7 +77,6 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 | `wget <url>`                     | Download files from the web                                        |
 | `ifconfig`                       | Display or configure network interfaces                            |
 | `ip a`                           | Display network interfaces (more modern than `ifconfig`)           |
-| `netstat`                        | Show network connections                                           |
 | `ss`                             | Utility to investigate sockets (faster and better than `netstat`)  |
 | `traceroute <host>`              | Trace the path packets take to a destination                       |
 | `nslookup <domain>`              | Query DNS to find domain information                               |
