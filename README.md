@@ -142,21 +142,6 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 | `command 2> <file>`              | Redirect error output to a file                                    |
 | `command &> <file>`              | Redirect both stdout and stderr to a file                          |
 
-## Bash Scripting Basics
-
-| Command                             | Description                                                     |
-|-------------------------------------|-----------------------------------------------------------------|
-| `#!/bin/bash`                       | Shebang: Declares the script interpreter                        |
-| `echo "Hello, World!"`              | Print a message to the screen                                   |
-| `read <variable>`                   | Take user input and store it in a variable                      |
-| `if [ condition ]; then ... fi`     | Conditional statement                                           |
-| `for var in 1 2 3; do ... done`     | For loop                                                        |
-| `while [ condition ]; do ... done`  | While loop                                                      |
-| `function_name() { ... }`           | Define a function                                               |
-| `exit`                              | Exit the script                                                 |
-| `crontab -e`                        | Edit cron jobs for scheduled tasks                              |
-| `at <time>`                         | Run a command at a specified time                               |
-
 ## Special Characters
 
 | Character                        | Description                                                        |
@@ -169,19 +154,6 @@ A handy cheat sheet for essential Bash commands, covering file management, proce
 | `;`                              | Separate multiple commands on the same line                        |
 | `&&`                             | Execute the second command only if the first succeeds              |
 | `\|\|`                           | Execute the second command only if the first fails                 |
-
-## Helpful Shortcuts
-
-| Shortcut                        | Description                                                         |
-|---------------------------------|---------------------------------------------------------------------|
-| `Ctrl + C`                      | Cancel the current command                                          |
-| `Ctrl + Z`                      | Pause the current command                                           |
-| `Ctrl + D`                      | Log out from the terminal or close the shell                        |
-| `Ctrl + L`                      | Clear the terminal screen                                           |
-| `!!`                            | Execute the last command                                            |
-| `!<number>`                     | Execute a specific command from the history                         |
-| `history`                       | Show command history                                                |
-| `Tab`                           | Auto-complete commands or filenames                                 |
 
 ## Useful Variables
 
